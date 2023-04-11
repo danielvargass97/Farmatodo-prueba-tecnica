@@ -20,7 +20,6 @@ public class Location {
     private String dimension;
 
     public Location() {
-
     }
 
     public Location(int id, String name, String type, String dimension) {

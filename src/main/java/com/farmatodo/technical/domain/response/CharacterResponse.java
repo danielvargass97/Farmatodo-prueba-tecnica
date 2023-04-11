@@ -20,7 +20,6 @@ public class CharacterResponse {
     private String created;
 
     public CharacterResponse() {
-
     }
 
     public CharacterResponse(int id, String name, String status, String species,

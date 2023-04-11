@@ -19,7 +19,6 @@ public class Episode {
     private List<Character> characters;
 
     public Episode() {
-
     }
 
     public Episode(int id, String name, List<Character> characters) {

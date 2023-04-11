@@ -26,7 +26,6 @@ public class Character {
 
 
     public Character() {
-
     }
 
     public Character(int id, String name, String species, String gender, String image, Location location) {

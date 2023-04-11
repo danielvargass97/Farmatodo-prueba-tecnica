@@ -13,7 +13,6 @@ public class EpisodeResponse {
     private String created;
 
     public EpisodeResponse() {
-
     }
 
     public EpisodeResponse(int id, String name, String airDate, String episode,

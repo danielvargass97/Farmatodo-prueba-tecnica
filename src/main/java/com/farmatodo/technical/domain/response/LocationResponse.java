@@ -13,7 +13,6 @@ public class LocationResponse {
     private String created;
 
     public LocationResponse() {
-
     }
 
     public LocationResponse(int id, String name, String type, String dimension, List<String> residents, String url, String created) {
