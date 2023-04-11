@@ -5,13 +5,6 @@ public class CharacterLocation {
     private String name;
     private String url;
 
-    public CharacterLocation() {
-    }
-
-    public CharacterLocation(String name, String url) {
-        this.name = name;
-        this.url = url;
-    }
 
     public String getName() {
         return name;

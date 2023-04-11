@@ -30,12 +30,6 @@ public class Location {
         this.dimension = dimension;
     }
 
-    public Location(String name, String type, String dimension) {
-        this.name = name;
-        this.type = type;
-        this.dimension = dimension;
-    }
-
     public int getId() {
         return id;
     }
