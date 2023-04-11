@@ -87,11 +87,10 @@ public class RickAndMortyServiceImpl implements RickAndMortyService {
         character.setSpecies(characterResponse.getSpecies());
         character.setGender(characterResponse.getGender());
         character.setImage(characterResponse.getImage());
-        if(Objects.equals(characterResponse.getLocation().getName(), "unknown")){
-            character.setLocation(new Location(9999,"Unknown", "", ""));
+        if (Objects.equals(characterResponse.getLocation().getName(), "unknown")) {
+            character.setLocation(new Location(9999, "Unknown", "", ""));
             character.setLocationId(9999);
-        }
-        else{
+        } else {
             Location location = getLocationByUrl(characterResponse.getLocation().getUrl());
             character.setLocation(location);
             character.setLocationId(location.getId());

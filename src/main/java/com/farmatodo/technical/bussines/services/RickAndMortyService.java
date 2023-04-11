@@ -10,7 +10,7 @@ public interface RickAndMortyService {
 
     Episode getEpisodeById(String episodeId) throws IOException;
 
-    Character getCharacterByUrl(String characterUrl) throws  IOException;
+    Character getCharacterByUrl(String characterUrl) throws IOException;
 
     Location getLocationByUrl(String locationUrl) throws IOException;
 }
