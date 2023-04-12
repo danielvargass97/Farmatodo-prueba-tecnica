@@ -1,0 +1,47 @@
+Las entidades se representarian en documentos.
+
+EPISODES:
+
+{
+   "_id": ObjectId("615b607e4f81f8619f85c031"),
+   "name": "Pilot"
+}
+
+LOCATION:
+{
+   "_id": ObjectId("615b607e4f81f8619f85c032"),
+   "name": "Earth (C-137)",
+   "type": "Planet",
+   "dimension": "Dimension C-137"
+}
+
+CHARACTERS:
+{
+   "_id": ObjectId("615b607e4f81f8619f85c033"),
+   "name": "Rick Sanchez",
+   "species": "Human",
+   "gender": "Male",
+   "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+   "location": {
+      "id": 20,
+      "name": "Earth (Replacement Dimension)"
+   }
+}
+
+La relacion entre episodes y characters serían en otro documento:
+{
+   "_id": ObjectId("615b607e4f81f8619f85c031"),
+   "name": "Pilot",
+   "characters": [
+      {
+         "id": 1,
+         "name": "Rick Sanchez"
+      },
+      {
+         "id": 2,
+         "name": "Morty Smith"
+      }
+   ]
+}
+
+
