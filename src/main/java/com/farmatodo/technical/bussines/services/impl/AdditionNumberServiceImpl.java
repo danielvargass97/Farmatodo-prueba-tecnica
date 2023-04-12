@@ -8,6 +8,6 @@ import org.springframework.stereotype.Service;
 public class AdditionNumberServiceImpl implements AdditionNumberService {
     @Override
     public Result sumNumbersSinceOneToN(int n) {
-        return new Result( (n * (n+1))/ 2);
+        return new Result((n * (n + 1)) / 2);
     }
 }
