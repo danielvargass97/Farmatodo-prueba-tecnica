@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "15c112b4-0b24-4ac9-850c-257d4da7c9e2",
+		"name": "Farmatodo technical test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14715016"
+	},
+	"item": [
+		{
+			"name": "Rick and Morty",
+			"item": [
+				{
+					"name": "Get episode info by id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/technical/test/rickandmorty/50",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"technical",
+								"test",
+								"rickandmorty",
+								"50"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Happy Numbers",
+			"item": [
+				{
+					"name": "List of happy numbers",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"numbers\" : [10, 13, 19, 23, 28, 31, 32, 44, 49, 68, 70, 79, 82, 86, 91, 94, 97]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/technical/test/happynumber/list",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"technical",
+								"test",
+								"happynumber",
+								"list"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Addition of numbers",
+			"item": [
+				{
+					"name": "Sum since 1 to n",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
