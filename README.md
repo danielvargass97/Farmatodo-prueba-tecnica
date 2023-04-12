@@ -6,6 +6,7 @@ Este proyecto resuelve la prueba tecnica solicitada.
 
 - [Pruebas](#requerimientos)
 - [Instalación](#instalación)
+- [Bonus](#Bonus)
 
 
 ## Pruebas
@@ -17,6 +18,8 @@ Cree una API REST con Spring Boot que cumpla con los siguientes requisitos:
   - La petición debe recibir el número del episodio.
   - GET - http://localhost:8080/technical/test/rickandmorty/{episodeId}
 - Prueba 2: Modelo entidad de relación del punto 1. 
+![Modelo relacional](https://github.com/danielvargass97/Farmatodo-prueba-tecnica/blob/master/static/img/Modelo%20relacional.png?raw=true)
+
 Se encuentra el la ruta indicada:  /static/img/Modelo relacional.png
 - Prueba 3: Consultar y entender que es un número feliz, implemente una API que reciba un listado de números y responda
 para cada número si es feliz o no.
@@ -32,4 +35,9 @@ Para instalar este proyecto, siga estos pasos:
 2. Cree una base de datos MySql y ejecute los scripts create_tables.sql y insert_location_table.sql alojados en static/sql
 3. Ejecute la clase TechnicalTestApplication.java
 
+## Bonus
+
+1. Pruebas unitarias - No solucionado
+2. Modelo no relacional - static/img/Modelo no relacional.txt
+3. Api desplegada - No solucionado
 
